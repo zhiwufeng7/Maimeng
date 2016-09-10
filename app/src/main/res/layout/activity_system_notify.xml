@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qft3.maimeng.homeModule.ui.SystemNotifyActivity">
+
+    <LinearLayout
+        android:id="@+id/system_activity_ll"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/system_notify_activity_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/fanhui" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="系统通知"
+            android:textColor="#fd5567"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#fd5567"
+        android:layout_below="@id/system_activity_ll"/>
+
+    <ImageView
+        android:id="@+id/system_notify_activity_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nocontent"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:layout_below="@id/system_notify_activity_iv"
+        android:text="您真幸运！暂时还未收到任何系统通知"/>
+</RelativeLayout>

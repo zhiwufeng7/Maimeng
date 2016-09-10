@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="D:\Svnxiangmu\qf3mm\pulltoreshlibrary\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="D:\Svnxiangmu\qf3mm\pulltoreshlibrary\src\androidTest\assets"/><source path="D:\Svnxiangmu\qf3mm\pulltoreshlibrary\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>
